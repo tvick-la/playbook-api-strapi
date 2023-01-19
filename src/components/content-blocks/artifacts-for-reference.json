@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_blocks_artifacts_for_references",
+  "info": {
+    "displayName": "Artifacts for Reference"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Artifact": {
+      "displayName": "artifact",
+      "type": "component",
+      "repeatable": true,
+      "component": "visual-elements.artifact"
+    }
+  }
+}

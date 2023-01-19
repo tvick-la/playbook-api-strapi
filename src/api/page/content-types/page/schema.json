@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "contentBlocks": {
+      "type": "dynamiczone",
+      "components": [
+        "content-blocks.design-intent",
+        "content-blocks.artifacts-for-reference",
+        "content-blocks.skills"
+      ]
+    }
+  }
+}

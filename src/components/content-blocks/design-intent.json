@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_blocks_design_intents",
+  "info": {
+    "displayName": "Design Intent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "richtext"
+    },
+    "firstPrinciples": {
+      "type": "richtext"
+    }
+  }
+}
